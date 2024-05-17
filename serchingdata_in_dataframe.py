@@ -14,7 +14,11 @@ mydata = pd.DataFrame(mydic , index=[a for a in range(1,len(mydic)+1)] )
 
 print(mydata)
 
-print("===================calling data from raw===========================")
+print("===================calling data from raw  multiple raw===========================")
 
 
-print(mydata.loc[2])
+print(mydata.loc[[1,2]])
+
+print("===================calling data from raw single raw===========================")
+
+print(mydata.loc[3])
