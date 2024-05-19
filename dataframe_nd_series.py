@@ -20,13 +20,22 @@ print(len(dic["name"]))
 
 print(len(dic["city"]))
 
+
+
+##adding more col into data 
+
+dic["courses"]= ['pyhton', 'webdevelopment' , 'datascience', 'pyhton ', 'GD' ,'fullter' , 'figma' , 'backenddevelpoer' , 'mernstack developer' , "data eng",'javasxript','java' ]
+
+print(len(dic["courses"]))
 """
-
-
 making dictnoary into dataframe wth the help of pandas 
-
 
  """
 
 d = pd.DataFrame(dic)
 print(d)
+
+
+
+
+
